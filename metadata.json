@@ -1,0 +1,6 @@
+{
+  "name": "Bhairahawa Apparel",
+  "description": "Bespoke apparel platform inspired by raw energy of Nepalese streets, offering tailored design collections, automated inquiry handling, dashboard with real-time sync, and multi-factor authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
