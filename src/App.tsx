@@ -28,6 +28,11 @@ export default function App() {
   // Dark theme configuration
   const [dark, setDark] = useState<boolean>(false);
 
+  // Automatically scroll to the top when switching page/tabs
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }, [currentTab]);
+
   useEffect(() => {
     // Initial theme check
     const isDark = document.documentElement.classList.contains('dark') || localStorage.getItem('theme') === 'dark';
